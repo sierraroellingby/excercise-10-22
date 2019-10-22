@@ -3,6 +3,12 @@
 
 
 let button;
+let image;
+
+function preLoad(){
+  image = loadImage('Pikachu-PNG-HD.png')
+
+}
 
 function setup() {
   createCanvas(400, 400);
